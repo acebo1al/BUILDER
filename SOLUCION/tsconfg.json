@@ -1,0 +1,6 @@
+{
+    "compilereOptions":{
+        "module": "CommonJS",
+        "target": "ES2020"
+    }
+}
