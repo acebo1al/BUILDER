@@ -5,15 +5,15 @@
  */
 export class ComponentesComputadora {
     // Componentes obligatorios
-    public cpu: string;
-    public ram: number;
-    public disco: number;
+    cpu: string;
+    ram: number;
+    disco: number;
 
     // Componentes adicionales opcionales (¡La lista crece hacia la derecha ➡️!)
-    public tarjetaGrafica: string;        
-    public refrigeracionLiquida: boolean; 
-    public lucesRgb: boolean;  
-    public sistemaOperativo: string;
+    tarjetaGrafica: string;        
+    refrigeracionLiquida: boolean; 
+    lucesRgb: boolean;  
+    sistemaOperativo: string;
 
     /**
      * EL CONSTRUCTOR TELESCÓPICO HACIA LA DERECHA ➡️

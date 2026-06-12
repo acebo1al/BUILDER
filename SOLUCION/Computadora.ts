@@ -5,15 +5,15 @@
  */
 export class Computadora {
     // Componentes obligatorios base
-    public cpu: string = "";
-    public ram: number = 0;        
-    public disco: number = 0;      
+    cpu: string = "";
+    ram: number = 0;        
+    disco: number = 0;      
 
     // Componentes opcionales
-    public tarjetaGrafica: string = "Ninguna";
-    public refrigeracionLiquida: boolean = false;
-    public lucesRgb: boolean = false;
-    public sistemaOperativo: string = "No asignado";
+    tarjetaGrafica: string = "Ninguna";
+    refrigeracionLiquida: boolean = false;
+    lucesRgb: boolean = false;
+    sistemaOperativo: string = "No asignado";
 
     /**
      * Muestra de forma limpia el hardware final en la terminal
